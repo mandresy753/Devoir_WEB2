@@ -4,13 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Navbar } from './components/Navbar'
 import HeroSection from './components/section1'
+import  AboutUs from "./components/AboutUs";
 
 function App() {
   return (
     <>
     <Navbar/>
     <HeroSection/>
-      <h1 className="">Hello World</h1>
+   <AboutUs/>
     </>
   )
 }
