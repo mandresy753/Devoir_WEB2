@@ -7,6 +7,7 @@ import HeroSection from './components/section1'
 import  AboutUs from "./components/AboutUs";
 import { Team } from './components/Team'
 import { CareerOpportunities} from './components/CareerOpportunities'
+import { Domains } from './components/Domains'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
    <AboutUs/>
    <Team/>
    <CareerOpportunities/>
+   <Domains/>
     </>
   )
 }
