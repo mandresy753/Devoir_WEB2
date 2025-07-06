@@ -8,6 +8,7 @@ import  AboutUs from "./components/AboutUs";
 import { Team } from './components/Team'
 import { CareerOpportunities} from './components/CareerOpportunities'
 import { Domains } from './components/Domains'
+import { Admission } from './components/Admission'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
    <Team/>
    <CareerOpportunities/>
    <Domains/>
+   <Admission/>
     </>
   )
 }
