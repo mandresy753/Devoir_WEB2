@@ -6,6 +6,7 @@ import { Navbar } from './components/Navbar'
 import HeroSection from './components/section1'
 import  AboutUs from "./components/AboutUs";
 import { Team } from './components/Team'
+import { CareerOpportunities} from './components/CareerOpportunities'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <HeroSection/>
    <AboutUs/>
    <Team/>
+   <CareerOpportunities/>
     </>
   )
 }
