@@ -10,7 +10,7 @@ import { CareerOpportunities} from './components/CareerOpportunities'
 import { Domains } from './components/Domains'
 import { Admission } from './components/Admission'
 import { Program } from './components/Program'
-
+import { Technologies } from './components/Technologies'
 function App() {
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
    <Domains/>
    <Admission/>
    <Program/>
+   <Technologies/>
     </>
   )
 }
