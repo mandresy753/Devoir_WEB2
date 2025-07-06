@@ -9,6 +9,7 @@ import { Team } from './components/Team'
 import { CareerOpportunities} from './components/CareerOpportunities'
 import { Domains } from './components/Domains'
 import { Admission } from './components/Admission'
+import { Program } from './components/Program'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
    <CareerOpportunities/>
    <Domains/>
    <Admission/>
+   <Program/>
     </>
   )
 }
